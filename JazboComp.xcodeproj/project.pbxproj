@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		ED9CE1152550CCE50082E091 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9CE1142550CCE50082E091 /* AppDelegate.swift */; };
-		ED9CE1172550CCE50082E091 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9CE1162550CCE50082E091 /* SceneDelegate.swift */; };
 		ED9CE1192550CCE50082E091 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9CE1182550CCE50082E091 /* ViewController.swift */; };
-		ED9CE11C2550CCE50082E091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9CE11A2550CCE50082E091 /* Main.storyboard */; };
 		ED9CE11E2550CCE60082E091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED9CE11D2550CCE60082E091 /* Assets.xcassets */; };
 		ED9CE1212550CCE60082E091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9CE11F2550CCE60082E091 /* LaunchScreen.storyboard */; };
+		ED9CE1342550CF180082E091 /* UICollectionReusableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9CE1332550CF180082E091 /* UICollectionReusableView+Extensions.swift */; };
+		ED9CE1372550CF460082E091 /* JazboCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9CE1362550CF460082E091 /* JazboCollectionView.swift */; };
+		ED9CE13A2550CF760082E091 /* JazboCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9CE1392550CF760082E091 /* JazboCollectionViewCell.swift */; };
+		ED9CE13D2550CFCB0082E091 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9CE13C2550CFCB0082E091 /* UIImage+Extensions.swift */; };
+		ED9CE1442550D0DB0082E091 /* ViewController+UICollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9CE1432550D0DB0082E091 /* ViewController+UICollectionViewDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ED9CE1112550CCE50082E091 /* JazboComp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JazboComp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED9CE1142550CCE50082E091 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED9CE1162550CCE50082E091 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ED9CE1182550CCE50082E091 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ED9CE11B2550CCE50082E091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED9CE11D2550CCE60082E091 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED9CE1202550CCE60082E091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED9CE1222550CCE60082E091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED9CE1332550CF180082E091 /* UICollectionReusableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionReusableView+Extensions.swift"; sourceTree = "<group>"; };
+		ED9CE1362550CF460082E091 /* JazboCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JazboCollectionView.swift; sourceTree = "<group>"; };
+		ED9CE1392550CF760082E091 /* JazboCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JazboCollectionViewCell.swift; sourceTree = "<group>"; };
+		ED9CE13C2550CFCB0082E091 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		ED9CE1432550D0DB0082E091 /* ViewController+UICollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+UICollectionViewDataSource.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,26 @@
 		ED9CE1132550CCE50082E091 /* JazboComp */ = {
 			isa = PBXGroup;
 			children = (
+				ED9CE13F2550CFFC0082E091 /* Extensions */,
 				ED9CE1142550CCE50082E091 /* AppDelegate.swift */,
-				ED9CE1162550CCE50082E091 /* SceneDelegate.swift */,
 				ED9CE1182550CCE50082E091 /* ViewController.swift */,
-				ED9CE11A2550CCE50082E091 /* Main.storyboard */,
+				ED9CE1432550D0DB0082E091 /* ViewController+UICollectionViewDataSource.swift */,
 				ED9CE11D2550CCE60082E091 /* Assets.xcassets */,
 				ED9CE11F2550CCE60082E091 /* LaunchScreen.storyboard */,
 				ED9CE1222550CCE60082E091 /* Info.plist */,
+				ED9CE1362550CF460082E091 /* JazboCollectionView.swift */,
+				ED9CE1392550CF760082E091 /* JazboCollectionViewCell.swift */,
 			);
 			path = JazboComp;
+			sourceTree = "<group>";
+		};
+		ED9CE13F2550CFFC0082E091 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ED9CE1332550CF180082E091 /* UICollectionReusableView+Extensions.swift */,
+				ED9CE13C2550CFCB0082E091 /* UIImage+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +143,6 @@
 			files = (
 				ED9CE1212550CCE60082E091 /* LaunchScreen.storyboard in Resources */,
 				ED9CE11E2550CCE60082E091 /* Assets.xcassets in Resources */,
-				ED9CE11C2550CCE50082E091 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +153,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED9CE1442550D0DB0082E091 /* ViewController+UICollectionViewDataSource.swift in Sources */,
+				ED9CE1372550CF460082E091 /* JazboCollectionView.swift in Sources */,
+				ED9CE13A2550CF760082E091 /* JazboCollectionViewCell.swift in Sources */,
+				ED9CE1342550CF180082E091 /* UICollectionReusableView+Extensions.swift in Sources */,
+				ED9CE13D2550CFCB0082E091 /* UIImage+Extensions.swift in Sources */,
 				ED9CE1192550CCE50082E091 /* ViewController.swift in Sources */,
 				ED9CE1152550CCE50082E091 /* AppDelegate.swift in Sources */,
-				ED9CE1172550CCE50082E091 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ED9CE11A2550CCE50082E091 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ED9CE11B2550CCE50082E091 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ED9CE11F2550CCE60082E091 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
